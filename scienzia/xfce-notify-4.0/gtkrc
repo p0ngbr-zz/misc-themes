@@ -1,0 +1,31 @@
+style "scienzia-window"
+{
+    bg[NORMAL] = "#000000"
+    XfceNotifyWindow::border-color = "#ffffff"
+    XfceNotifyWindow::border-radius = 2.0
+    XfceNotifyWindow::border-width = 0.0
+    XfceNotifyWindow::border-width-hover = 0.0
+
+
+    #XfceNotifyWindow::label-alpha = 30
+}
+class "XfceNotifyWindow" style "scienzia-window"
+
+style "scienzia-button"
+{
+    bg[NORMAL] = "#4a4a4a"
+    bg[PRELIGHT] = "#7a7a7a"
+    fg[NORMAL] = "#dedede"
+    fg[PRELIGHT] = "#ffffff"
+}
+widget_class "XfceNotifyWindow.*.GtkButton*" style "scienzia-button"
+
+style "scienzia-text"
+{
+    font_name = "DejaVu Sans Book 8.7"
+    fg[NORMAL] = "#ffffff"
+    GtkWidget::link-color = "#555555"
+    XfceNotifyWindow::border-radius = 2.0
+    #XfceNotifyWindow::border-width = 0.0
+}
+widget_class "XfceNotifyWindow.*.<GtkLabel>" style "scienzia-text"
