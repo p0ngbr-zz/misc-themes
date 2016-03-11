@@ -1,0 +1,43 @@
+[theme-info]
+name = scienzia
+icon = thumb.png
+author = p0ng
+version = 0.1
+awn-theme-version = 0.4.0
+
+[config/panel/1]
+orient = 3
+size = 32
+style = 2
+expand = False
+
+[config/theme]
+gstep1 = #e4e4e4e4e4e46464
+gstep2 = #0000000000003232
+ghistep1 = #ffffffffffff6464
+ghistep2 = #4141414141416464
+draw_pattern = True
+pattern_alpha = 0.40000000596
+icon_text_color = #ffffffffffffff00
+icon_text_outline_color = #0000000000003232
+icon_font_mode = 1
+border = #0000000000001414
+hilight = #ffffffffffff2828
+sep_color = #0000000000001414
+gtk_theme_mode = False
+corner_radius = 8.0
+panel_angle = 20.0
+curviness = 10.0
+curves_symmetry = 0.5
+tooltip_font_name = DejaVu LGC Sans 10
+tooltip_font_color = #ffffffffffffffff
+tooltip_bg_color = #30300a0a2424a8a8
+tooltip_outline_color = #000000000000a8a8
+
+[config/effects]
+active_rect_color = #bdbdcccce3e37f00
+active_rect_outline = #ffffffffffff0a0a
+arrow_icon = __awn_internal_arrow2
+show_shadows = False
+icon_effect = 349525
+
